@@ -7,9 +7,9 @@ const addresses = {
     me: "0x13141C728f0919640FEdB7440552DD3dbD0a151A"
 }
 
-const mnemonic = "food uncover prosper stamp mountain blade already item oxygen trophy skill hood"
+const mnemonic = "##"
 
-const provider = new ethers.providers.WebSocketProvider("wss://multi-broken-breeze.bsc.discover.quiknode.pro/cafc402d368bfb47c65253ee362dd52dee4d9c5d/")
+const provider = new ethers.providers.WebSocketProvider("wss QUICKNODE URL")
 const wallet = ethers.Wallet.fromMnemonic(mnemonic);
 const account = wallet.connect(provider)
 
